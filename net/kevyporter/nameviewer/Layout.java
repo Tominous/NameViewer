@@ -37,10 +37,10 @@ public class Layout {
 	}
 
 	protected void viewName(JFrame frame){
-//		JLabel credit = new JLabel("By KevyPorter v1.0");
-//		credit.setBounds(105, 10, 150, 14);
-//		credit.setForeground(Color.BLACK);
-//		credit.setVisible(true);
+		JLabel credit = new JLabel("By KevyPorter v1.0");
+		credit.setBounds(105, 10, 150, 14);
+		credit.setForeground(Color.BLACK);
+		credit.setVisible(true);
 		
 		JTextField field = new JTextField();
 		field.setBounds(330, 133, 280, 30);
@@ -60,7 +60,7 @@ public class Layout {
 		});
 		button.setVisible(true);
 		
-//		frame.add(credit);
+		frame.add(credit);
 		frame.add(button);
 		frame.add(field);
 	}
